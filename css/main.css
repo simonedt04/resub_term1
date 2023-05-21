@@ -1,0 +1,586 @@
+
+body{
+    font-family: "montserrat";
+    width: 1440px ;
+    background-color: #000;
+}
+
+nav{ 
+    width: 1489px;
+    height: 80px;
+    background-color: transparent;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: absolute;
+   
+
+}
+
+.logo{
+    width: 20%;
+    float: left;
+    padding-top: 10px;
+    margin-top: 10px;
+    color: white;
+    margin-left: -100px;
+}
+
+img{
+    width: 110px;
+    height: 35px;
+    position: relative;
+}
+
+.nav-con{
+    width: 840px;
+    height: 50px;
+    float: left;
+    margin-top: 15px;
+    display: inline-block;
+    font-size:16px ;
+    margin-left: -130px;
+    
+}
+
+.nav-con ul {
+    list-style: none;
+    display: inline-block;
+    margin-top: 5px;
+    
+}
+
+.nav-con li{
+    float: left;
+    height: 40px;
+    background-color: transparent;
+    /* border-radius: 15px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    /* padding-top:5px ; */
+    display: inline-block;
+    line-height: 40px;
+    color: #fff;
+    
+    
+}
+
+.nav-con li:hover{
+    background-color: #66FCF1;
+    color: #000;
+    cursor: pointer;
+    border-radius: 40px; 
+}
+
+.active{
+    border-bottom:3px solid #66FCF1 !important;
+    border-radius: 0px;
+    /* background-color: #2b2b2b !important; */
+    color: white;
+}
+
+header{
+    width: 1489px;
+    height: 600px;
+    background-color: lightgrey;
+    padding-top: 250px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header p{
+    width: 400px;
+}
+
+.search-btn{
+    height: 50px;
+    width: 255px;
+    background-color: #0000007b;
+    float: right;
+    margin-top: 15px;
+    margin-right: -200px;
+    border: 2px solid #66FCF1;
+    border-radius: 50px;
+    
+
+}
+
+
+.search-icon{
+    background-image:url("../assets/search_icon.svg");
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-repeat: no-repeat;
+    margin-left: 200px;
+    margin-top: -22px;
+
+   
+}
+
+.search{
+    width: 100px;
+    margin-top: 13px;
+    margin-left: 15px;
+    color: #fff;
+    font-family: "montserrat";
+   font-size: 14px;
+    
+}
+
+
+
+.foot{ width: 1600px;
+    height: 100px;
+    background-color: #000;
+    color: white;
+    text-align: left;
+    margin-bottom: 0px;
+    padding-left: 50px;
+    margin-top: -100px;
+}
+
+
+
+.hero-img{
+    background-image: url("../assets/Header.png");
+    height: 840px;
+    width: 1620px;
+    margin-top: -400px;
+     margin-left: -160px;
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+
+
+}
+
+
+.heading2{
+    font-size: 30px;
+    font-family: "Montserrat";
+    margin-left: 200px;
+    margin-top: 100px;
+    color: white;
+
+}
+
+.heading1{
+    font-size: 50px;
+    font-family: "Montserrat";
+    margin-left: 200px;
+    color: white;
+}
+
+.btn1{
+    width: 225px;
+    height: 70px;
+    background-color: #66FCF1;
+    border-radius: 70px;
+    margin-left: 200px;
+    margin-top: 50px;
+    float: left;
+}
+
+
+.btn1-text{
+    color: black;
+    font-size: 25px;
+    line-height: 70px;
+    text-align: center;
+    font-weight: 600;
+    
+   
+    
+}
+
+.btn1:hover{
+    text-align: center;
+    width: 225px;
+    height: 70px;
+    border-radius: 70px;
+    color: #fff;
+   background-color: transparent;
+    border: 3px solid #66FCF1;
+   
+    
+}
+
+.btn1-text:hover{
+    color: #fff;
+}
+
+
+
+.btn2{
+    width: 225px;
+    height: 70px;
+    border: 3px solid #66FCF1;
+    background-color: transparent;
+    border-radius: 70px;
+    margin-left: 450px;
+    margin-top: 50px;
+   
+}
+
+.btn2-text{
+    color: #fff;
+    font-size: 25px;
+    line-height: 65px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.btn2-text:hover{
+    width: 225px;
+    height: 70px;
+    border-radius: 70px;
+    line-height: 70px;
+    color: #000;
+    background-color: #66FCF1;
+    border: 1px solid #66FCF1;
+    margin-left: -3px;
+    margin-top: -3px;
+    
+}
+
+
+.btn3{
+    width: 70px;
+    height: 70px;
+    margin-left: 700px;
+    margin-top: -70px;
+    background-image: url("../assets/heart_icon.svg");
+   
+}
+
+.btn3:hover{
+    background-image: url("../assets/heart_icon hover.png");
+    width: 70px;
+    height: 70px;
+    margin-left: 700px;
+    margin-top: -70px;
+    background-size: cover;
+    position: relative;
+    
+    background-repeat: no-repeat;
+  
+}
+
+
+.container{
+    width: 100%;
+    background-color: #000;
+}
+
+.col-box{
+    padding-right: 30px;
+    margin-right: 30px;
+    
+    
+}
+
+.vid{
+    width: 400px !important;
+    float: left;
+    margin-left: 0px;
+}
+
+iframe{
+    margin-top: 50px;
+    width: 600px !important;
+    height: 350px;
+    float: left;
+    margin-left: 10px;
+}
+
+
+.block{
+    background-color: #ffffff87;
+    height: 500px;
+    width: 840px;
+    margin-left:500px ;
+    margin-top: 50px;
+   
+}
+
+
+.col-6{
+    margin-left: 50px;
+}
+
+
+.artist{
+    margin-left: 150px;
+}
+
+.left-arrow{
+    height: 60px;
+    width: 60px;
+    background-image: url("/assets/left_arrow_icon.svg");
+    background-repeat: no-repeat;
+    margin-left: 700px;
+}
+
+.right-arrow{
+    height: 60px;
+    width: 60px;
+    background-image: url("/assets/right_arrow_icon.svg");
+    background-repeat: no-repeat;
+    margin-left: 780px;
+    margin-top: -60px;
+}
+
+
+.text2{
+    margin-left: 100px;
+    font-family: "montserrat";
+    font-size: 22px;
+    color: #fff;
+}
+
+
+.block-songs{
+    margin: 0 auto;
+    width: 97%;
+    /* background-color: #66FCF1; */
+    height: 1200px;
+    margin-left: 100px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+.song1{
+    float: left;
+    width: 320px;
+    background-color: #000;
+    height: 277px;
+    margin-left: 0px;
+    background-image: url("https://consequence.net/wp-content/uploads/2022/12/Angel-Olsen-Big-Time.jpeg?resize=356,356");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.song1:hover{
+    background-image: url("/assets/play_icon.svg");
+   width: 320px;
+   height: 277px;
+   background-color: aquamarine;
+   background-repeat: no-repeat;
+   background-size: auto;
+}
+
+.song2{
+    float: left;
+    width: 320px;
+    background-color: #000;
+    height: 277px;
+    margin-left: 30px;
+    background-image: url("https://consequence.net/wp-content/uploads/2022/12/Wet-Leg-Ur-Mom-art.jpeg?resize=356,356");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.song3{
+    float: left;
+    width: 320px;
+    background-color: #000;
+    height: 277px;
+    margin-left: 30px;
+    background-image: url("https://consequence.net/wp-content/uploads/2022/12/Lil-Yachty-Poland.jpeg?resize=356,356");
+    background-size: cover;
+}
+
+.song4{
+    float: left;
+    width: 320px;
+    background-color: #000;
+    height: 277px;
+    margin-left: 30px;
+    background-image: url("https://consequence.net/wp-content/uploads/2022/12/DCFC.jpeg?resize=356,356");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.text3{
+    margin-left: 0px;
+    font-family: "montserrat";
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 20px;
+  margin-top: 150px;
+
+}
+
+
+.song5{
+    float: left;
+    width: 320px;
+    background-color: #000;
+    height: 277px;
+    margin-left: 0px;
+    background-image: url("https://consequence.net/wp-content/uploads/2022/12/Plains.jpeg?resize=356,356");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* .song5:hover{
+    background-image: url("/assets/play_icon.svg");
+   width: 40px;
+   height: 40px;
+   background-color: aquamarine;
+   background-repeat: no-repeat;
+} */
+
+.song6{
+    float: left;
+    width: 320px;
+    background-color: #000;
+    height: 277px;
+    margin-left: 30px;
+    background-image: url("https://consequence.net/wp-content/uploads/2022/12/Horsegirl.jpeg?resize=356,356");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.song7{
+    float: left;
+    width: 320px;
+    background-color: #000;
+    height: 277px;
+    margin-left: 30px;
+    background-image: url("https://consequence.net/wp-content/uploads/2022/12/Lil-Yachty-Poland.jpeg?resize=356,356");
+    background-size: cover;
+}
+
+.song8{
+    float: left;
+    width: 320px;
+    background-color: #000;
+    height: 277px;
+    margin-left: 30px;
+    background-image: url("https://consequence.net/wp-content/uploads/2022/12/All-My-Ghosts.jpeg?resize=356,356");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.song9{
+    float: left;
+    width: 320px;
+    background-color: #000;
+    height: 277px;
+    margin-left: 0px;
+    background-image: url("https://consequence.net/wp-content/uploads/2022/04/Joyce-Manor-40-oz-to-Fresno-new-album-artwork.jpg?resize=356,356");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+.song10{
+    float: left;
+    width: 320px;
+    background-color: #000;
+    height: 277px;
+    margin-left: 30px;
+    background-image: url("https://consequence.net/wp-content/uploads/2022/12/Lucius.jpeg?resize=356,356");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+.song11{
+    float: left;
+    width: 320px;
+    background-color: #000;
+    height: 277px;
+    margin-left: 30px;
+    background-image: url("https://consequence.net/wp-content/uploads/2022/10/brockhampton-the-family-artwork.png?resize=356,356");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+.song12{
+    float: left;
+    width: 320px;
+    background-color: #000;
+    height: 277px;
+    margin-left: 30px;
+    background-image: url("https://consequence.net/wp-content/uploads/2022/12/Mirrorball.jpeg?resize=356,356");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+
+.foot-text{
+    font-family: "montserrat";
+    font-size: 22px;
+    margin: 0 auto;
+    margin-left: 50px;
+    line-height: 100px;
+    font-weight: 600;
+}
+
+
+.logo-box{
+width: 400px;
+height: 100px;
+float: right;
+margin-top: -100px;
+margin-right: 100px;
+display: inline-block;
+margin-left: 20px;
+padding: 0px 35px 0px 145px;
+}
+
+
+
+.logo1{
+background-image: url("/assets/video.png");
+height: 50px;
+width: 50px;
+display: inline-block;
+margin: 0 auto;
+margin-top: 25px;
+background-size: contain;
+
+}
+
+
+.logo2{
+    background-image: url("../assets/facebook.png");
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-top: 25px;
+    background-size: contain;
+}
+
+
+.logo3{
+    background-image: url("/assets/twitter.png");
+    height: 50px;
+width: 50px;
+display: inline-block;
+margin-top: 25px;
+background-size: contain;
+
+
+}
+
+
+.logo4{
+    background-image: url("/assets/instagram.png");
+    height: 50px;
+width: 50px;
+display: inline-block;
+margin-top: 25px;
+background-size: contain;
+
+}

@@ -1,0 +1,503 @@
+
+body{
+    font-family: "montserrat";
+    width: 1440px ;
+    background-color: #000;
+  
+}
+
+.nav{ 
+    width: 1600px;
+    height: 100px;
+    background-color: violet;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: absolute;
+    margin-top: -300px;
+   
+
+}
+
+.logo{
+    width: 20%;
+    float: left;
+    padding-top: 10px;
+    margin-top: 10px;
+    color: white;
+    margin-left: -100px;
+}
+
+img{
+    width: 110px;
+    height: 35px;
+    position: relative;
+}
+
+.nav-con{
+    width: 1090px;
+    height: 50px;
+    float: left;
+    margin-top: 15px;
+    display: inline-block;
+    font-size:16px ;
+    margin-left: -130px;
+    
+}
+
+.nav-con ul {
+    list-style: none;
+    display: inline-block;
+    margin-top: 5px;
+    
+}
+
+.nav-con li{
+    float: left;
+    height: 40px;
+    background-color: transparent;
+    /* border-radius: 15px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    /* padding-top:5px ; */
+    display: inline-block;
+    line-height: 40px;
+    color: #fff;
+    
+    
+}
+
+.nav-con li:hover{
+    background-color: #66FCF1;
+    color: #000;
+    cursor: pointer;
+    border-radius: 40px; 
+}
+
+.active{
+    border-bottom:3px solid #66FCF1 !important;
+    border-radius: 0px;
+    /* background-color: #2b2b2b !important; */
+    color: white;
+}
+
+/* header{
+    width: 1600px;
+    height: 600px;
+    background-color: lightgrey;
+    padding-top: 250px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header p{
+    width: 400px;
+} */
+
+.search-btn{
+    height: 50px;
+    width: 255px;
+    background-color: #0000007b;
+    float: right;
+    margin-top: 15px;
+    margin-right: -200px;
+    border: 2px solid #66FCF1;
+    border-radius: 50px;
+
+}
+
+
+.search-icon{
+    background-image:url("../assets/search_icon.svg");
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-repeat: no-repeat;
+    margin-left: 200px;
+    margin-top: -22px;
+
+   
+}
+
+.search{
+    width: 100px;
+    margin-top: 13px;
+    margin-left: 15px;
+    color: #fff;
+    font-family: "montserrat";
+   font-size: 14px;
+    
+}
+
+
+
+.foot{ width: 1600px;
+    height: 100px;
+    background-color: #000;
+    color: white;
+    text-align: left;
+    margin-bottom: 0px;
+    padding-left: 50px;
+    margin-top: 100px;
+}
+
+
+.foot-text{
+    font-family: "montserrat";
+    font-size: 22px;
+    margin: 0 auto;
+    margin-left: 50px;
+    line-height: 100px;
+    font-weight: 600;
+}
+
+
+.logo-box{
+width: 400px;
+height: 100px;
+float: right;
+margin-top: -100px;
+margin-right: 100px;
+display: inline-block;
+margin-left: 20px;
+padding: 0px 35px 0px 145px;
+}
+
+
+
+.logo1{
+background-image: url("/assets/video.png");
+height: 50px;
+width: 50px;
+display: inline-block;
+margin: 0 auto;
+margin-top: 25px;
+background-size: contain;
+
+}
+
+
+.logo2{
+    background-image: url("../assets/facebook.png");
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-top: 25px;
+    background-size: contain;
+}
+
+
+.logo3{
+    background-image: url("/assets/twitter.png");
+    height: 50px;
+width: 50px;
+display: inline-block;
+margin-top: 25px;
+background-size: contain;
+
+
+}
+
+
+.logo4{
+    background-image: url("/assets/instagram.png");
+    height: 50px;
+width: 50px;
+display: inline-block;
+margin-top: 25px;
+background-size: contain;
+
+}
+
+
+.navigation-bar{
+    width: 1600px;
+    height: 100px;
+    background-color: #000;
+    padding-left: 160px;
+    padding-right: 270px;
+    
+}
+
+
+.block-2{
+    height: 800px;
+   width: 1650px;
+    background-color: #66FCF1;
+    margin-left: -50px;
+    margin-right: -350px;
+    margin-top: 300px;
+}
+
+.heading1{
+    font-size: 50px;
+    font-family: "Montserrat";
+    margin-left: 150px;
+    font-weight: 700;
+    color:#fff;
+   
+}
+
+.heading2{
+    font-size: 30px;
+    font-family: "Montserrat";
+    margin-left: 150px;
+    margin-top: 100px;
+    font-weight: 600;
+    color:#fff;
+
+}
+
+.paragraph{
+    width: 600px;
+    font-size: 18px;
+    font-family: "Montserrat";
+    margin-left: 150px;
+    color:#fff;
+}
+
+.block-left{
+    margin-top: 50px;
+    width: 605px;
+    height: 700px;
+  
+    
+    margin-left: -10px;
+}
+
+.block-right{
+    margin-top: -700px;
+    width: 1005px;
+    height: 700px;
+
+    margin-left: 605px;
+}
+
+    
+    .down{
+        width: 20px;
+        height: 20px;
+        background-image: url("/assets/arrow-down-sign-to-navigate.png");
+        margin-top: -35px;
+        margin-left: 520px;
+        background-size: cover;
+  
+    }
+
+
+    .img-holder{
+        height: 450px;
+        width: 450px;
+        background-image: url("/assets/my_favourite_mix_album_cover.png");
+        margin-left: 150px;
+        background-size: cover;
+        margin-top: 20px;
+        position: relative;
+        font-family: "Montserrat";
+        font-size: 60px;
+        text-align: center;
+       padding-top: 130px;
+        color: #fff;
+        font-weight: 800;
+    }
+
+
+    .heading3{
+        font-size: 22px;
+        font-family: "Montserrat";
+        margin-left: 50px;
+        padding-top: 80px;
+        font-weight: 600;
+        color:#fff;
+        border-bottom: 4px solid #66FCF1;
+        float: left;
+        width: 164px;
+        
+    
+    }
+
+    .heading4{
+        font-size: 21px;
+        font-family: "Montserrat";
+        margin-left: 90px;
+        padding-top: 80px;
+        font-weight: 300;
+        color:#fff;
+        
+        float: left;
+        width: 114px;
+        
+    
+    }
+
+    .heading5{
+        font-size: 21px;
+        font-family: "Montserrat";
+        margin-left: 90px;
+        padding-top: 80px;
+        font-weight: 300;
+        color:#fff;
+       
+        float: left;
+        width: 194px;
+        
+    
+    }
+
+
+    .text-block{
+        display: inline-block;
+    }
+
+    table{
+        width: 900px;
+        
+        height: 400px;
+        margin-left: 50px;
+        color: #fff;
+    }
+
+
+    th{
+        padding-right: 50px;
+        margin-left: 5px;
+    }
+
+
+   .music-player{
+    width: 1600px;
+    height: 300px;
+    /* background-color: purple; */
+   }
+
+
+   .line{
+    margin-left: 150px;
+    width: 1400px;
+    height: 7px;
+    background-color: #5b5b5b;
+    border-radius: 10px;
+   }
+
+
+   .inside-line{
+    margin-left: 50px;
+    width: 400px;
+    height: 7px;
+    background-color: #66FCF1;
+    border-radius: 10px;
+
+
+   }
+
+
+   .circle{
+    width: 35px;
+    height: 35px;
+    content: '';
+    background-color: #66FCF1;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: -15px;
+    margin-left: 385px;
+    
+   }
+
+  .small-img{
+    background-image: url("https://consequence.net/wp-content/uploads/2022/12/Angel-Olsen-Big-Time.jpeg?resize=356,356");
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+    margin-left: 205px;
+    margin-top: 50px;
+  }
+
+
+  .heading-song{
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 290px;
+    margin-top: -62px;
+
+  }
+
+
+  .heading-small{
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 290px;
+    margin-top: 0px;
+  } 
+
+
+  .player{
+    width: 400px;
+    height: 100px;
+    margin-top: -200px;
+    display: inline-block;
+    padding: 0px 35px 0px 145px;
+    position: relative;
+    margin-left: 570px;
+    }
+    
+    
+    
+    .previous{
+    background-image: url("/assets/previous_icon.svg");
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-top: -25px;
+    background-size: contain;
+    
+    
+    }
+    
+    
+    .pause{
+        background-image: url("/assets/pause_icon.svg");
+        height: 100px;
+        width: 100px;
+        display: inline-block;
+        margin-top: 100px;
+        background-size: contain;
+            }
+    
+    
+    .next{
+        background-image: url("/assets/next_icon.svg");
+        height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-top: 25px;
+    background-size: contain;
+    
+    
+    }
+
+
+    .time{
+        font-family: "Montserrat";
+        font-size: 16px;
+        color: #fff;
+        font-weight: 600;
+        margin-left: 1300px;
+        margin-top: -50px;
+      } 
+
+
+      .menu-item{
+        background-image: url("/assets/menu.png");
+        height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin-top: -30px;
+    background-size: contain;
+    margin-right: 100px;
+    float: right;
+      }
